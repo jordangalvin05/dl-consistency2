@@ -1,13 +1,9 @@
 import streamlit as st
-from streamlit_extras.colored_header import colored_header
 from PIL import Image
 
 st.title('Statistical Storytelling:📖')
-colored_header(
-    label="Correlation, Causation, and Context",
-    description="10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com",
-    color_name="red-70",
-)
+st.title("Correlation, Causation, and Context")
+st.caption("10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com")
 
 head_image = Image.open('JUNE-DL-img1.png')
 st.image(head_image)
@@ -105,13 +101,4 @@ st.text('🌟 Learning outcome 2: Before making inferences from your data, stop 
 ''
 'Thank you for reading along! As always, the Data Governance team is here to support you on your data literacy journey. If you have any questions, please reach out to us at DataGovernance@perkinscoie.com. Happy June! '
 ''
-if st.button('🌟You are a data star!🌟'):
-    from streamlit_extras.let_it_rain import rain    
-    rain(
-        emoji="🌟",
-        font_size=54,
-        falling_speed=5,
-        animation_length="short",
-        )
-    
 'Have feedback on the new format? Please let us know via email or by clicking feedback at the end of the intiial communication. '
