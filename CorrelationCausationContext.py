@@ -9,7 +9,7 @@ colored_header(
     color_name="red-70",
 )
 
-head_image = Image.open('C:/Users/galvj/.spyder-py3/corr/JUNE-DL-img1.png')
+head_image = Image.open('JUNE-DL-img1.png')
 st.image(head_image)
 
 ''
@@ -19,13 +19,13 @@ st.image(head_image)
 'What is correlation? Correlation describes the __linear relationship__ between two variables. This relationship is described by __strength and direction__ (positive or negative). '
 ''
 
-definition_image = Image.open('C:/Users/galvj/.spyder-py3/corr/JUNE-DL-img2.png')
+definition_image = Image.open('JUNE-DL-img2.png')
 st.image(definition_image)
 
 ''
 'A __positive relationship__ between two variables means that as __one increases, the other increases__. For example, the number of cats I have and the amount of cat food I purchase. Conversely, a __negative relationship__ means that as __one variable increases, the other decreases__. For example, the number of cats in my household, and the number of fragile items I leave on my counters.  '
 ''
-correl_image = Image.open('C:/Users/galvj/.spyder-py3/corr/JUNE-DL-img3.png')
+correl_image = Image.open('JUNE-DL-img3.png')
 st.image(correl_image)
 ''
 st.expander('Expander')
@@ -35,7 +35,7 @@ with st.expander('Deeper Dive: How do I interpret correlation?'):
 st.expander('Expander')
 with st.expander(':red[__Check Your Understanding__] ✍️'):
     'Use the image below to answer the following questions.'
-    direction_image = Image.open('C:/Users/galvj/.spyder-py3/corr/correlationdirectionquiz.png')
+    direction_image = Image.open('correlationdirectionquiz.png')
     st.image(direction_image) 
     ''
     '__Question 1.__   Which of the above images depicts a __strong positive__ correlation?'       
@@ -64,7 +64,7 @@ st.text('🌟Learning outcome 1: Strength and direction in correlation 🌟')
 st.subheader('⚠️There\'''s a twist!⚠️')
 'Just because there is a correlation between two variables does not mean that there is a cause-and-effect relationship between the two variables. In other words: correlation does not imply causation.  '
 ''
-cause_image = Image.open('C:/Users/galvj/.spyder-py3/corr/JUNE-DL-img4.png')
+cause_image = Image.open('JUNE-DL-img4.png')
 st.image(cause_image)
 ''
 'You’ve likely heard this statement before, but what does this ___really___ mean?'
@@ -98,7 +98,7 @@ with st.expander('An example of the importance of context'):
 ''
 '__Congratulations! You’ve learned the difference between correlation and causation.__'
 ''
-redflag_image = Image.open('C:/Users/galvj/.spyder-py3/corr/JUNE-DL-img5.png')
+redflag_image = Image.open('JUNE-DL-img5.png')
 st.image(redflag_image)
 ''
 st.text('🌟 Learning outcome 2: Before making inferences from your data, stop and consider \n other factors that may influence the result. 🌟')
